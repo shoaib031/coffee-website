@@ -52,7 +52,7 @@ color: #dfddd8;
 .shop {
     background-color: #D4B476;
     width: 224px;
-    height: 160px;
+    height: 185px;
 }
 
 .shop h1 {
@@ -278,8 +278,8 @@ color: #dfddd8;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 30px 90px 30px 90px;
-    margin-top: 5%;
+    padding: 30px 90px 55px 90px;
+    margin-top: 7%;
 
 }
 
@@ -346,8 +346,8 @@ h2::before {
 }
 .nama{
     background: #e6cc9a;
-    bottom: -63%;
-    height: 10rem;
+    bottom: -70%;
+    height: 11rem;
     position: absolute;
     right: 0;
     width: 20%;
@@ -752,7 +752,7 @@ h2::before {
     color: hsla(43, 10%, 86%, .5);
     margin-bottom: 2rem;
     line-height: 160%;
-    font-size: 17px;
+    font-size: 20px;
 
 
 }
@@ -842,4 +842,20 @@ line-height: 100%;
   ::-webkit-scrollbar-thumb {
     background-color: #E6CC9A;
   
+  }
+
+  .arrow {
+    cursor: pointer;
+    font-size: 24px;
+    background-color: #1B1C1E;
+    height: 30px;
+    color: #1B1C1E;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  
+  /* Additional styling for hover effect on arrows */
+  .arrow:hover {
+    background-color: #ddd;
   }
